@@ -1,0 +1,54 @@
+{ 
+    "_id" : ObjectId("5c5e016359f24715e78521c2"), 
+    "name" : "Kabbage", 
+    "shortname" : "KBG", 
+    "rate" : NumberInt(50), 
+    "previous" : NumberInt(50), 
+    "change" : NumberInt(0), 
+    "supply" : 0.0
+}
+{ 
+    "_id" : ObjectId("5c5e023c2b7fe6171b5ac2a1"), 
+    "name" : "Alphabet", 
+    "shortname" : "GOOG", 
+    "rate" : NumberInt(101), 
+    "previous" : NumberInt(101), 
+    "change" : NumberInt(0), 
+    "supply" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c5e025d2b7fe6171b5ac2a2"), 
+    "name" : "Amazon", 
+    "shortname" : "AMZN", 
+    "rate" : NumberInt(100), 
+    "previous" : NumberInt(100), 
+    "change" : NumberInt(0), 
+    "supply" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c5e03092b7fe6171b5ac2a3"), 
+    "name" : "Ebay", 
+    "shortname" : "EBAY", 
+    "rate" : NumberInt(100), 
+    "previous" : NumberInt(100), 
+    "change" : NumberInt(0), 
+    "supply" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c5e03272b7fe6171b5ac2a4"), 
+    "name" : "Paypal", 
+    "shortname" : "PYPL", 
+    "rate" : NumberInt(100), 
+    "previous" : NumberInt(100), 
+    "change" : NumberInt(0), 
+    "supply" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c5e03462b7fe6171b5ac2a5"), 
+    "name" : "Wells Fargo", 
+    "shortname" : "WFC", 
+    "rate" : NumberInt(100), 
+    "previous" : NumberInt(100), 
+    "change" : NumberInt(0), 
+    "supply" : NumberInt(0)
+}

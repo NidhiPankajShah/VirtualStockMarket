@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/translayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.aasim.ecellvsm.TranscationActivity">
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:id="@+id/linearLayout"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentTop="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textSize="18sp"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs 100"
+                android:textSize="18sp"
+                android:id="@+id/transprice"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash"
+                android:textSize="18sp"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs 10000000"
+                android:textSize="18sp"
+                android:id="@+id/transbal"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stocks:"
+                    android:textSize="18sp"
+                    android:layout_alignParentLeft="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:id="@+id/stockcount"
+                    android:textSize="18sp"
+                    android:layout_alignParentLeft="true"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:textSize="18sp"
+                    android:id="@+id/plusminus"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 10000000"
+                    android:textSize="18sp"
+                    android:id="@+id/transcost"
+                    />
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stockseek"
+            app:dsb_min="0"
+            app:dsb_max="50"
+            app:dsb_trackColor="@color/colorPrimary"
+            app:dsb_progressColor="@color/colorPrimary"
+            app:dsb_indicatorColor="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="The buy order will be executed even if you dont have enough cash.The amount is charged accordingly."
+            android:id="@+id/buywarning"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Stocks Left:10"
+            android:id="@+id/stocksleft"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal" />
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Transaction"
+        android:id="@+id/confirmtrans"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"/>
+
+
+
+</RelativeLayout>
+</RelativeLayout>

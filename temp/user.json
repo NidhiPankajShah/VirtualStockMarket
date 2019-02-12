@@ -1,0 +1,20 @@
+{ 
+    "_id" : ObjectId("5c5df48a1e3aed1633e86cbb"), 
+    "username" : "aasim", 
+    "password" : "aasim", 
+    "networth" : NumberInt(5006), 
+    "previous" : NumberInt(5007), 
+    "balance" : NumberInt(2796), 
+    "verify" : NumberInt(1), 
+    "fcm" : "c5nuxgjXC1E:APA91bHLn6hGL2q-4piFJol9FT3ZD4MiN6VA0ExZGV9ZTi0MOxzmAwrjy6zIknrS3G1y1uHjXa2_u-ZnlSNOmdyLc_JAxEm3R-sFhH6xRcaCd0acx0u9CF7_B4Hhm0QIIJfom7CJZZpR"
+}
+{ 
+    "_id" : ObjectId("5c5e04e82b7fe6171b5ac2a6"), 
+    "username" : "nidhi", 
+    "password" : "nidhi", 
+    "networth" : NumberInt(5030), 
+    "previous" : 5032.7, 
+    "balance" : NumberInt(2053), 
+    "verify" : NumberInt(1), 
+    "fcm" : "d3vAm05r6tg:APA91bFniCawnoue4guQbveMbo0LjOCpvgNmoPu7vMNnDIuGXPO90VGeNGSjd1BDGky60Se8cugnRtguHSOOQkHH-oWt1ZVCTp4mafYYYctFDxhOh53jaadWv5I8irgkrMVhwu9g9JaS"
+}

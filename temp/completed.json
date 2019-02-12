@@ -1,0 +1,32 @@
+{ 
+    "_id" : ObjectId("5c5e07122b7fe6171b5ac2af"), 
+    "userid" : "5c5df48a1e3aed1633e86cbb", 
+    "name" : "KBG", 
+    "longname" : null, 
+    "quantity" : NumberInt(24), 
+    "price" : 50.95
+}
+{ 
+    "_id" : ObjectId("5c5e07122b7fe6171b5ac2b0"), 
+    "userid" : "5c5e04e82b7fe6171b5ac2a6", 
+    "name" : "GOOG", 
+    "longname" : null, 
+    "quantity" : NumberInt(27), 
+    "price" : 101.1
+}
+{ 
+    "_id" : ObjectId("5c5e07892b7fe6171b5ac2b9"), 
+    "userid" : "5c5e04e82b7fe6171b5ac2a6", 
+    "name" : "KBG", 
+    "longname" : null, 
+    "quantity" : NumberInt(5), 
+    "price" : 50.95
+}
+{ 
+    "_id" : ObjectId("5c5e07f92b7fe6171b5ac2c2"), 
+    "userid" : "5c5df48a1e3aed1633e86cbb", 
+    "name" : "GOOG", 
+    "longname" : null, 
+    "quantity" : NumberInt(10), 
+    "price" : 101.1
+}

@@ -1,0 +1,20 @@
+{
+  "name": "vsm",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "main": "www.js",
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "express-yields": "^1.0.2",
+    "jade": "~1.11.0",
+    "moment": "^2.17.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
+}

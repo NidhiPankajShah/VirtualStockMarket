@@ -1,0 +1,168 @@
+{ 
+    "_id" : ObjectId("5c5e07122b7fe6171b5ac2a9"), 
+    "time" : 1549666066869.0, 
+    "name" : "Kabbage", 
+    "shortname" : "KBG", 
+    "price" : 51.5
+}
+{ 
+    "_id" : ObjectId("5c5e07122b7fe6171b5ac2aa"), 
+    "time" : 1549666066872.0, 
+    "name" : "Alphabet", 
+    "shortname" : "GOOG", 
+    "price" : 101.75
+}
+{ 
+    "_id" : ObjectId("5c5e07122b7fe6171b5ac2ab"), 
+    "time" : 1549666066873.0, 
+    "name" : "Amazon", 
+    "shortname" : "AMZN", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07122b7fe6171b5ac2ac"), 
+    "time" : 1549666066873.0, 
+    "name" : "Ebay", 
+    "shortname" : "EBAY", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07122b7fe6171b5ac2ad"), 
+    "time" : 1549666066873.0, 
+    "name" : "Paypal", 
+    "shortname" : "PYPL", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07122b7fe6171b5ac2ae"), 
+    "time" : 1549666066873.0, 
+    "name" : "Wells Fargo", 
+    "shortname" : "WFC", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07892b7fe6171b5ac2b3"), 
+    "time" : 1549666185338.0, 
+    "name" : "Kabbage", 
+    "shortname" : "KBG", 
+    "price" : 50.95
+}
+{ 
+    "_id" : ObjectId("5c5e07892b7fe6171b5ac2b4"), 
+    "time" : 1549666185338.0, 
+    "name" : "Alphabet", 
+    "shortname" : "GOOG", 
+    "price" : NumberInt(101)
+}
+{ 
+    "_id" : ObjectId("5c5e07892b7fe6171b5ac2b5"), 
+    "time" : 1549666185338.0, 
+    "name" : "Amazon", 
+    "shortname" : "AMZN", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07892b7fe6171b5ac2b7"), 
+    "time" : 1549666185338.0, 
+    "name" : "Paypal", 
+    "shortname" : "PYPL", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07892b7fe6171b5ac2b6"), 
+    "time" : 1549666185338.0, 
+    "name" : "Ebay", 
+    "shortname" : "EBAY", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07892b7fe6171b5ac2b8"), 
+    "time" : 1549666185338.0, 
+    "name" : "Wells Fargo", 
+    "shortname" : "WFC", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07f82b7fe6171b5ac2bc"), 
+    "time" : 1549666296997.0, 
+    "name" : "Kabbage", 
+    "shortname" : "KBG", 
+    "price" : NumberInt(50)
+}
+{ 
+    "_id" : ObjectId("5c5e07f82b7fe6171b5ac2bd"), 
+    "time" : 1549666296997.0, 
+    "name" : "Alphabet", 
+    "shortname" : "GOOG", 
+    "price" : 101.1
+}
+{ 
+    "_id" : ObjectId("5c5e07f82b7fe6171b5ac2be"), 
+    "time" : 1549666296997.0, 
+    "name" : "Amazon", 
+    "shortname" : "AMZN", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07f92b7fe6171b5ac2bf"), 
+    "time" : 1549666296997.0, 
+    "name" : "Ebay", 
+    "shortname" : "EBAY", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07f92b7fe6171b5ac2c0"), 
+    "time" : 1549666296997.0, 
+    "name" : "Paypal", 
+    "shortname" : "PYPL", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e07f92b7fe6171b5ac2c1"), 
+    "time" : 1549666296998.0, 
+    "name" : "Wells Fargo", 
+    "shortname" : "WFC", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e28f0c1f33a186373c6b0"), 
+    "time" : 1549674736902.0, 
+    "name" : "Kabbage", 
+    "shortname" : "KBG", 
+    "price" : NumberInt(50)
+}
+{ 
+    "_id" : ObjectId("5c5e28f0c1f33a186373c6b1"), 
+    "time" : 1549674736902.0, 
+    "name" : "Alphabet", 
+    "shortname" : "GOOG", 
+    "price" : NumberInt(101)
+}
+{ 
+    "_id" : ObjectId("5c5e28f0c1f33a186373c6b2"), 
+    "time" : 1549674736902.0, 
+    "name" : "Amazon", 
+    "shortname" : "AMZN", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e28f0c1f33a186373c6b3"), 
+    "time" : 1549674736902.0, 
+    "name" : "Ebay", 
+    "shortname" : "EBAY", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e28f0c1f33a186373c6b4"), 
+    "time" : 1549674736902.0, 
+    "name" : "Paypal", 
+    "shortname" : "PYPL", 
+    "price" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("5c5e28f0c1f33a186373c6b5"), 
+    "time" : 1549674736902.0, 
+    "name" : "Wells Fargo", 
+    "shortname" : "WFC", 
+    "price" : NumberInt(100)
+}

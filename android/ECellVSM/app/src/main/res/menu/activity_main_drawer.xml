@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_market"
+            android:icon="@drawable/stock_nav"
+            android:title="Market Rates" />
+        <item
+            android:id="@+id/nav_leaderboards"
+            android:icon="@drawable/ic_leaderboards"
+            android:title="Leaderboards" />
+
+        <item
+            android:id="@+id/nav_pending"
+            android:icon="@drawable/hourglass"
+            android:title="Pending Transactions" />
+
+        <item
+            android:id="@+id/nav_shares"
+            android:icon="@drawable/cube_of_notes_stack"
+            android:title="Portfolio" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+</menu>

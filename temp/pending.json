@@ -1,0 +1,8 @@
+{ 
+    "_id" : ObjectId("5c5e2973c1f33a186373c6b6"), 
+    "userid" : "5c5e04e82b7fe6171b5ac2a6", 
+    "name" : "KBG", 
+    "longname" : "Kabbage", 
+    "type" : "1", 
+    "quantity" : NumberInt(28)
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.aasim.ecellvsm.LoginActivity"
+    android:background="@color/colorPrimary">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView2"
+            android:background="#00000000"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/spitecell" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameText"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/underlinebg"
+        android:hint="Username"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/MyEditTextTheme"
+        android:imeOptions="actionDone"
+        android:padding="10dp"
+        android:layout_marginBottom="0dp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:id="@+id/passwordtext"
+        android:imeOptions="actionDone"
+        android:background="@drawable/underlinebg"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login "
+        android:id="@+id/loginbtn"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Not registered? Sign up now"
+        android:id="@+id/registeractbtn"
+        android:textColor="@color/colorWhite"
+        android:background="@android:color/transparent"/>
+    </LinearLayout>
+</RelativeLayout>

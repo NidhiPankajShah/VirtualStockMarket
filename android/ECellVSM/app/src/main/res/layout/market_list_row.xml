@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FLPK"
+            android:id="@+id/listshrtname"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/list_txt_color_black"
+            />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs.1000"
+        android:id="@+id/listprice"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/list_txt_color_black"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="+0.34%"
+        android:gravity="right"
+        android:id="@+id/listchange"
+        android:textSize="18sp"
+        android:background="@drawable/textview_border"
+        android:textColor="@color/profit"
+        android:padding="5dp"
+        android:textAlignment="center"
+
+        />
+</LinearLayout>
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flipkart"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textSize="12sp"
+            android:id="@+id/listname"
+            android:textColor="@color/list_txt_color_black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trade Stocks"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentRight="true"
+             />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

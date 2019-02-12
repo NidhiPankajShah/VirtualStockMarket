@@ -1,0 +1,240 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical"
+    android:id="@+id/companyfragmain"
+    tools:context="com.aasim.ecellvsm.CompanyFragment"
+    android:weightSum="1">
+
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/chartlayout"
+    android:layout_marginBottom="5dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:textColor="@color/list_txt_color_black"/>
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/companychart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="2dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-6hrs"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:id="@+id/maxgraph"
+        android:textColor="@color/list_txt_color_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 hrs"
+            android:id="@+id/mingraph"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:textColor="@color/list_txt_color_black"/>
+    </RelativeLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/hourlayout"
+        android:layout_below="@+id/chartlayout">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/line1"
+        android:layout_below="@+id/companychart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Past 1 Hour"
+        android:textSize="14sp"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/line1"
+        android:textColor="@color/list_txt_color_black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price Change"
+            android:textSize="14sp"
+            android:textColor="@color/list_txt_color_black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.0"
+                android:textSize="18sp"
+                android:id="@+id/hourprice"
+                android:textColor="@color/list_txt_color_black"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change %"
+
+            android:layout_gravity="right"
+            android:textSize="14sp"
+            android:textColor="@color/list_txt_color_black"
+           />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="+0%"
+        android:gravity="right"
+        android:id="@+id/hourchange"
+        android:layout_gravity="right"
+        android:textSize="18sp"
+        android:textColor="@color/profit"
+        android:background="@drawable/textview_border"
+        android:padding="2dp"
+        />
+</LinearLayout>
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/transactionlayout"
+    android:layout_below="@+id/hourlayout">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Transaction Price"
+        android:textSize="14sp"
+        android:textColor="@color/list_txt_color_black"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price Change"
+                android:textSize="14sp"
+                android:textColor="@color/list_txt_color_black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.0"
+                android:textSize="18sp"
+                android:id="@+id/boughtprice"
+                android:textColor="@color/list_txt_color_black"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change %"
+                android:layout_gravity="right"
+                android:textSize="14sp"
+                android:textColor="@color/list_txt_color_black"
+                />
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="+0%"
+                android:gravity="right"
+                android:id="@+id/boughtchange"
+                android:layout_gravity="right"
+                android:textSize="18sp"
+                android:textColor="@color/profit"
+                android:padding="2dp"
+                android:background="@drawable/textview_border"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Stocks"
+            android:id="@+id/buybtn"
+            android:layout_weight="0.5"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell Stocks"
+            android:id="@+id/sellbtn"
+            android:layout_weight="0.5"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorWhite"
+           />
+    </LinearLayout>
+</RelativeLayout>
